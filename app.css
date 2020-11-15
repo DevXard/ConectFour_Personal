@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.game{
+    position: absolute;
+    top: 7rem;
+    left: 50%;
+    transform: translate(-50%);
+    width: 650px;
+    height: 600px;
+    background: rgb(175, 235, 232);
+    border: solid 2px black;
+    box-shadow: 5px 5px rgb(72, 70, 70);
+    padding: 1.5rem;
+}
+
+.slot{
+    width: 90px;
+    height: 90px;
+    background: white;
+    border-radius: 50%;
+    border: solid 1px black;
+}
+
+.reset{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%);
+    border: 1px solid black;
+    width: 5rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.player-turn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
